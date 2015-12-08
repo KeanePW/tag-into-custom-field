@@ -8,6 +8,10 @@ This app can be used to have macros set values to ticket fields of the following
 * decimal
 * regex
 
+###  Updates
+
+* Capitalise the first letter of each word. Credits for the code to the person who left the best answer here: http://stackoverflow.com/questions/4878756/javascript-how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
+
 ### Installation
 
 1. Install the app (=download as zip, upload as private app).
