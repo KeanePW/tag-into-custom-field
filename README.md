@@ -11,6 +11,7 @@ This app can be used to have macros set values to ticket fields of the following
 ###  Updates
 
 * Capitalise the first letter of each word. Credits for the code to the person who left the best answer here: http://stackoverflow.com/questions/4878756/javascript-how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
+* Change the location to "New Ticket Sidebar" because we are using the app for new tickets.
 
 ### Installation
 
