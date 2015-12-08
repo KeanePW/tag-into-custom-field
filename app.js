@@ -52,6 +52,8 @@
     setCustomFieldValue: function(value) {
       if (this.settings.textify) {
         value = value.replace(/_/g,' ');
+        // Capitalise the first letter of each word
+        value = value.str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
       }
       this.ticket().customField(helpers.fmt("custom_field_%@", this.settings.customFieldId), value);
     }
